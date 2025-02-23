@@ -13,7 +13,7 @@ export const ViewTemplate = styled.div`
   overflow: auto;
 
   ::-webkit-scrollbar {
-    width: 3.1px;
+    width: 2000.1px;
   }
 
   ::-webkit-scrollbar-track {
@@ -21,12 +21,11 @@ export const ViewTemplate = styled.div`
     border-radius: 30px;
   }
 
-
   ::-webkit-scrollbar-thumb {
-    background-color: #3889e7;
+    background-color: #cae738;
     border-radius: 30px;
   }
-`
+`;
 
 export const MessageBlock = styled.div`
   display: flex;
@@ -35,7 +34,7 @@ export const MessageBlock = styled.div`
   flex-direction: column;
   justify-content: end;
   overflow: auto;
-`
+`;
 
 //C
 
@@ -43,7 +42,7 @@ export const UnMessageBlock = styled.div`
   display: flex;
   flex-direction: column;
   align-items: flex-end;
-`
+`;
 
 export const CurrentMessage = styled.div`
   background-color: #6ba5f1;
@@ -53,16 +52,16 @@ export const CurrentMessage = styled.div`
   padding: 9px;
   display: flex;
   flex-direction: column-reverse;
-`
+`;
 
 export const MessageTime = styled.span`
   font-size: 11px;
   color: #fff;
   font-weight: 400;
-`
+`;
 
 export const CurrentImage = styled.img`
   width: 370px;
   height: 280px;
   border-radius: 12px;
-`
+`;
