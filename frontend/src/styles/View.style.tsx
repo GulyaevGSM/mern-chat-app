@@ -13,7 +13,7 @@ export const ViewTemplate = styled.div`
   overflow: auto;
 
   ::-webkit-scrollbar {
-    width: 2000.1px;
+    width: 111.1px;
   }
 
   ::-webkit-scrollbar-track {
